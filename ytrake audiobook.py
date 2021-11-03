@@ -159,7 +159,7 @@ class Mainframe(tk.Frame):
         title_label = tk.Label(self, text="Ytrake Unleashed", font='Verdana, 30 bold'); title_label.pack()
         version_label = tk.Label(self, text="{}".format(self.master.VERSION), font='Verdana, 10 bold'); version_label.pack()
         license_label = tk.Label(self, text="Project distributed under MIT license", font='Verdana, 8 bold'); license_label.pack()
-        github_label = Hyperlink(self, url="https://github.com/jakedolan443/ytrake", text="https://github.com/jakedolan443/ytrake"); github_label.pack()
+        github_label = Hyperlink(self, url="https://github.com/LimpingBrain/ytrake", text="https://github.com/LimpingBrain/ytrake"); github_label.pack()
         
         space = tk.Label(self); space.pack(pady=5)
         
