@@ -11,6 +11,7 @@ import shutil
 
 #add method to pick only some vids from playlist
 #add mutiple format options, add single video option
+#chose video or audio option
 
 def __init_edit(save_dir, edit_dir):
         edit_dir = edit_dir.replace("\n", "")
